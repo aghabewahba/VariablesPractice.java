@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d78b854c-e90e-493a-bef3-d24939a86cd4" name="Default Changelist" comment="static method demo using calcolator">
-      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/BusObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day48_constrructors_static/CybertekGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day48_constrructors_static/CybertekGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,19 +303,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>

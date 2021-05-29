@@ -2,10 +2,14 @@ package day48_constrructors_static.static_example;
 
 public class CalculatorTest {
     public static void main(String[] args) {
-        Calculator.add(5,3);//add static method can be called using classname// static way
+        Calculator.add(5,3);//add static method can be called using classname// static way of calling the method
+
+        //Calculator.multiply(2, 4); ERROR: multiply is not static. need object to call it
+        //multiply is instance method, and we are creating object then calling it
 
         Calculator calcObject =new Calculator();
         calcObject.multiply(2,4);
+        //static method can also be called using an object
 
         calcObject.add(10,45);
     }

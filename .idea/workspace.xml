@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d78b854c-e90e-493a-bef3-d24939a86cd4" name="Default Changelist" comment="added constructors to Address.java and crested object in Student class">
-      <change beforePath="$PROJECT_DIR$/java-programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/CustomerObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/CybertekGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Application.StudentObject">
+  <component name="RunManager" selected="Application.CustomerObject">
     <configuration name="AddressList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day47_constructors.AddressList" />
       <module name="Java-programming" />
@@ -73,6 +77,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day45_oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day48_constrructors_static.CustomerObject" />
+      <module name="Java-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day48_constrructors_static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,19 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrafficLightObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day45_oop.TrafficLightObject" />
-      <module name="Java-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day45_oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -133,19 +137,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TrafficLightObject" />
       <item itemvalue="Application.CoffeeTest" />
       <item itemvalue="Application.Dealership" />
       <item itemvalue="Application.AddressList" />
       <item itemvalue="Application.StudentObject" />
+      <item itemvalue="Application.CustomerObject" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerObject" />
         <item itemvalue="Application.StudentObject" />
         <item itemvalue="Application.AddressList" />
         <item itemvalue="Application.Dealership" />
         <item itemvalue="Application.CoffeeTest" />
-        <item itemvalue="Application.TrafficLightObject" />
       </list>
     </recent_temporary>
   </component>

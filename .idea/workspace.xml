@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d78b854c-e90e-493a-bef3-d24939a86cd4" name="Default Changelist" comment="added constructors to Address.java and crested object in Student class">
+    <list default="true" id="d78b854c-e90e-493a-bef3-d24939a86cd4" name="Default Changelist" comment="static method demo using calcolator">
+      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/BusObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day48_constrructors_static/CybertekGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day48_constrructors_static/CybertekGroups.java" afterDir="false" />
     </list>
@@ -54,13 +60,26 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Application.CybertekGroups">
-    <configuration name="AddressList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day47_constructors.AddressList" />
+  <component name="RunManager" selected="Application.CalculatorTest">
+    <configuration name="BusObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day48_constrructors_static.BusObjects" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day47_constructors.*" />
+          <option name="PATTERN" value="day48_constrructors_static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day48_constrructors_static.static_example.CalculatorTest" />
+      <module name="Java-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day48_constrructors_static.static_example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,19 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day48_constrructors_static.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dealership" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day46_encapsulation.Dealership" />
-      <module name="Java-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day46_encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +140,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Dealership" />
-      <item itemvalue="Application.AddressList" />
       <item itemvalue="Application.StudentObject" />
       <item itemvalue="Application.CustomerObject" />
       <item itemvalue="Application.CybertekGroups" />
+      <item itemvalue="Application.BusObjects" />
+      <item itemvalue="Application.CalculatorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorTest" />
+        <item itemvalue="Application.BusObjects" />
         <item itemvalue="Application.CybertekGroups" />
         <item itemvalue="Application.CustomerObject" />
         <item itemvalue="Application.StudentObject" />
-        <item itemvalue="Application.AddressList" />
-        <item itemvalue="Application.Dealership" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +308,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -315,7 +333,8 @@
     <MESSAGE value="added constructors to Address.java and crested object in AddressList.java" />
     <MESSAGE value="added constructors to Address.java and crested object in Student class" />
     <MESSAGE value="added new classes for today class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new classes for today class" />
+    <MESSAGE value="static method demo using calcolator" />
+    <option name="LAST_COMMIT_MESSAGE" value="static method demo using calcolator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

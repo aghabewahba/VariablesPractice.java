@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d78b854c-e90e-493a-bef3-d24939a86cd4" name="Default Changelist" comment="small changes happend">
-      <change afterPath="$PROJECT_DIR$/src/day49_static/StaticMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day49_static/StaticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day49_static/StaticVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_static/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_static/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_static/Locator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_static/StaticVariableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-programming/day48_constrructors_static/static_example/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-programming/day48_constrructors_static/static_example/CalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programming/day49_static/StaticTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-programming/day49_static/StaticTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day49_static/StaticVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day49_static/StaticVariables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,20 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Application.StaticTest">
+  <component name="RunManager" selected="Application.BankAccountTest">
+    <configuration name="BankAccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day49_static.BankAccountTest" />
+      <module name="Java-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day49_static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BusObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day48_constrructors_static.BusObjects" />
       <module name="Java-programming" />
@@ -77,19 +92,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day48_constrructors_static.static_example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day48_constrructors_static.CustomerObject" />
-      <module name="Java-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day48_constrructors_static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +137,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CustomerObject" />
       <item itemvalue="Application.CybertekGroups" />
       <item itemvalue="Application.BusObjects" />
       <item itemvalue="Application.CalculatorTest" />
       <item itemvalue="Application.StaticTest" />
+      <item itemvalue="Application.BankAccountTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankAccountTest" />
         <item itemvalue="Application.StaticTest" />
         <item itemvalue="Application.CalculatorTest" />
         <item itemvalue="Application.BusObjects" />
         <item itemvalue="Application.CybertekGroups" />
-        <item itemvalue="Application.CustomerObject" />
       </list>
     </recent_temporary>
   </component>

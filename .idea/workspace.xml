@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d78b854c-e90e-493a-bef3-d24939a86cd4" name="Default Changelist" comment="static method demo using calcolator">
+    <list default="true" id="d78b854c-e90e-493a-bef3-d24939a86cd4" name="Default Changelist" comment="small changes happend">
+      <change afterPath="$PROJECT_DIR$/src/day49_static/StaticMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_static/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day49_static/StaticVariables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day48_constrructors_static/static_example/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programming/day48_constrructors_static/static_example/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-programming/day48_constrructors_static/static_example/CalculatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="day48_constructors_static" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +57,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Application.CalculatorTest">
+  <component name="RunManager" selected="Application.StaticTest">
     <configuration name="BusObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day48_constrructors_static.BusObjects" />
       <module name="Java-programming" />
@@ -108,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day47_constructors.StudentObject" />
+    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day49_static.StaticTest" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day47_constructors.*" />
+          <option name="PATTERN" value="day49_static.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,33 +123,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StudentObject" />
       <item itemvalue="Application.CustomerObject" />
       <item itemvalue="Application.CybertekGroups" />
       <item itemvalue="Application.BusObjects" />
       <item itemvalue="Application.CalculatorTest" />
+      <item itemvalue="Application.StaticTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticTest" />
         <item itemvalue="Application.CalculatorTest" />
         <item itemvalue="Application.BusObjects" />
         <item itemvalue="Application.CybertekGroups" />
         <item itemvalue="Application.CustomerObject" />
-        <item itemvalue="Application.StudentObject" />
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +242,7 @@
       <workItem from="1622156659716" duration="5931000" />
       <workItem from="1622208375837" duration="9719000" />
       <workItem from="1622296969787" duration="909000" />
+      <workItem from="1622589713017" duration="3451000" />
     </task>
     <task id="LOCAL-00001" summary="add work to my class">
       <created>1622163676187</created>
@@ -292,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622312899456</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="small changes happend">
+      <created>1622325155686</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622325155686</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +325,8 @@
     <MESSAGE value="added constructors to Address.java and crested object in Student class" />
     <MESSAGE value="added new classes for today class" />
     <MESSAGE value="static method demo using calcolator" />
-    <option name="LAST_COMMIT_MESSAGE" value="static method demo using calcolator" />
+    <MESSAGE value="small changes happend" />
+    <option name="LAST_COMMIT_MESSAGE" value="small changes happend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,7 +9,7 @@ public class StaticMethods {
         System.out.println("message: " + message);
 
         //System.out.println("num =" + num);//Error : num is instance . static can not acce
-        System.out.println("count =" + count);//no error count is static vairable
+        System.out.println("count =" + count);//no error count is static variable
     }
     public static void anotherStaticMethod(){
         System.out.println("another Static Method");

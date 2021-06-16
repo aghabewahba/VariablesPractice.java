@@ -1,10 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d78b854c-e90e-493a-bef3-d24939a86cd4" name="Default Changelist" comment="Static21 Variable and method">
-      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/StaticBlockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/StaticBlockTest.java" afterDir="false" />
+    <list default="true" id="d78b854c-e90e-493a-bef3-d24939a86cd4" name="Default Changelist" comment="Static block demo">
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/AudioBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/BookObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/EBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/inheritanceTast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/overriding/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/overriding/AnimalObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/overriding/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day50_inheritance/overriding/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day51_inheritance/Contractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day51_inheritance/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day51_inheritance/EmployeeObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day51_inheritance/super_keyword/Lux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day51_inheritance/super_keyword/Lyft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day51_inheritance/super_keyword/LyftRides.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day51_inheritance/super_keyword/LyftXL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_inheritance/AppObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_inheritance/Discord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_inheritance/Instagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_inheritance/MobileApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_inheritance/discordusers/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_inheritance/discordusers/B22DiscordServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day52_inheritance/discordusers/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_inheritance/final_keyword/FinalRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_inheritance/final_keyword/TestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_inheritance/hiding/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_inheritance/hiding/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_inheritance/hiding/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_inheritance/hiding/PhoneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_inheritance/tesla/CarObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_inheritance/tesla/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_inheritance/tesla/ModelX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day53_inheritance/tesla/Roadster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day54_abstraction/CampusStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day54_abstraction/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day54_abstraction/MyAbstractionClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day54_abstraction/OnlineStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day54_abstraction/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day54_abstraction/Salad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day54_abstraction/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day54_abstraction/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day49_static/StaticMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day49_static/StaticMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day50_inheritance/StaticBlockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day50_inheritance/StaticBlockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day50_inheritance/StaticBlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day50_inheritance/StaticBlockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +100,13 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Application.StaticBlockTest">
-    <configuration name="BankAccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day49_static.BankAccountTest" />
+  <component name="RunManager" selected="Application.School">
+    <configuration name="AppObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day52_inheritance.AppObject" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day49_static.*" />
+          <option name="PATTERN" value="day52_inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day48_constrructors_static.BusObjects" />
+    <configuration name="B22DiscordServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day52_inheritance.discordusers.B22DiscordServer" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day48_constrructors_static.*" />
+          <option name="PATTERN" value="day52_inheritance.discordusers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day48_constrructors_static.static_example.CalculatorTest" />
+    <configuration name="MyObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day54_abstraction.MyObjects" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day48_constrructors_static.static_example.*" />
+          <option name="PATTERN" value="day54_abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticBlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day50_inheritance.StaticBlockTest" />
+    <configuration name="PhoneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day53_inheritance.hiding.PhoneTest" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day50_inheritance.*" />
+          <option name="PATTERN" value="day53_inheritance.hiding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day49_static.StaticTest" />
+    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day54_abstraction.School" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day49_static.*" />
+          <option name="PATTERN" value="day54_abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +180,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BusObjects" />
-      <item itemvalue="Application.CalculatorTest" />
-      <item itemvalue="Application.StaticTest" />
-      <item itemvalue="Application.BankAccountTest" />
-      <item itemvalue="Application.StaticBlockTest" />
+      <item itemvalue="Application.AppObject" />
+      <item itemvalue="Application.B22DiscordServer" />
+      <item itemvalue="Application.PhoneTest" />
+      <item itemvalue="Application.MyObjects" />
+      <item itemvalue="Application.School" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticBlockTest" />
-        <item itemvalue="Application.BankAccountTest" />
-        <item itemvalue="Application.StaticTest" />
-        <item itemvalue="Application.CalculatorTest" />
-        <item itemvalue="Application.BusObjects" />
+        <item itemvalue="Application.School" />
+        <item itemvalue="Application.MyObjects" />
+        <item itemvalue="Application.PhoneTest" />
+        <item itemvalue="Application.B22DiscordServer" />
+        <item itemvalue="Application.AppObject" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +291,12 @@
       <workItem from="1622829727074" duration="561000" />
       <workItem from="1622848198602" duration="117000" />
       <workItem from="1622902614264" duration="4061000" />
+      <workItem from="1623101979113" duration="988000" />
+      <workItem from="1623192876011" duration="8763000" />
+      <workItem from="1623247656835" duration="1019000" />
+      <workItem from="1623507677361" duration="13243000" />
+      <workItem from="1623593348650" duration="14766000" />
+      <workItem from="1623798080944" duration="7822000" />
     </task>
     <task id="LOCAL-00001" summary="add work to my class">
       <created>1622163676187</created>

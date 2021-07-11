@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d78b854c-e90e-493a-bef3-d24939a86cd4" name="Default Changelist" comment="add new day 59 polymorphism">
-      <change afterPath="$PROJECT_DIR$/src/day60_exceptions/FinallyBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day60_exceptions/MultiCatchBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day60_exceptions/StringIndexIssue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day60_exceptions/ThrowingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_30_21,_11_05_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_30_21,_11_15_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+    <list default="true" id="d78b854c-e90e-493a-bef3-d24939a86cd4" name="Default Changelist" comment="add new files">
+      <change afterPath="$PROJECT_DIR$/src/day61_exception_collections/BreakTimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exception_collections/CustomExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exception_collections/ElementaryStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exception_collections/ElementaryStudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exception_collections/ErrorExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exception_collections/InsufficientBalanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exception_collections/checked_exceptions/CheckedExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exception_collections/checked_exceptions/ReadFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exception_collections/checked_exceptions/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aghaby1_hany_practice/abstract_food/Bread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aghaby1_hany_practice/abstract_food/Bread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aghaby1_hany_practice/abstract_food/Salad1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aghaby1_hany_practice/abstract_food/Salad1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aghaby1_hany_practice/abstract_food/Sandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aghaby1_hany_practice/abstract_food/Sandwich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-programming/day60_exceptions/StringIndexIssue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-programming/day60_exceptions/StringIndexIssue.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Application.StringIndexIssue">
+  <component name="RunManager" selected="Application.ReadFromFile">
     <configuration name="ElementsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day59_polymorphisim_execption.ElementsTest" />
       <module name="Java-programming" />
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day59_polymorphisim_execption.InstanceOf" />
+    <configuration name="ErrorExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day61_exception_collections.ErrorExamples" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day59_polymorphisim_execption.*" />
+          <option name="PATTERN" value="day61_exception_collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RuntimeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day59_polymorphisim_execption.exception_handling.RuntimeExample" />
+    <configuration name="ReadFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day61_exception_collections.checked_exceptions.ReadFromFile" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day59_polymorphisim_execption.exception_handling.*" />
+          <option name="PATTERN" value="day61_exception_collections.checked_exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,31 +133,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.ElementsTest" />
-      <item itemvalue="Application.InstanceOf" />
-      <item itemvalue="Application.RuntimeExample" />
       <item itemvalue="Application.TryCatch" />
       <item itemvalue="Application.StringIndexIssue" />
+      <item itemvalue="Application.ErrorExamples" />
+      <item itemvalue="Application.ReadFromFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFromFile" />
+        <item itemvalue="Application.ErrorExamples" />
         <item itemvalue="Application.StringIndexIssue" />
         <item itemvalue="Application.ElementsTest" />
         <item itemvalue="Application.TryCatch" />
-        <item itemvalue="Application.RuntimeExample" />
-        <item itemvalue="Application.InstanceOf" />
       </list>
     </recent_temporary>
   </component>
@@ -274,6 +277,7 @@
       <workItem from="1625533874619" duration="8000" />
       <workItem from="1625612736577" duration="7777000" />
       <workItem from="1626013987662" duration="1267000" />
+      <workItem from="1626015884719" duration="10918000" />
     </task>
     <task id="LOCAL-00001" summary="add work to my class">
       <created>1622163676187</created>
@@ -397,7 +401,9 @@
     <MESSAGE value="add another classes" />
     <MESSAGE value="add new day 57 polymorphism" />
     <MESSAGE value="add new day 58 polymorphism" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new day 58 polymorphism" />
+    <MESSAGE value="add new day 60 Exception" />
+    <MESSAGE value="add new files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
